@@ -1,0 +1,7 @@
+/bin/echo [1] 
+<version 1>
+Write operands on command line to standard output separated by a single blank and terminated with a newline (Ô\nÕ)
+
+<pane Options>
+1|S|-n|-n Supporess trailing newline|This may also be done by appending Ô\cÕ to the end of the string
+</pane>

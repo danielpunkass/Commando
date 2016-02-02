@@ -18,12 +18,64 @@
 		650D88BC1C61047100F3F4FB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6541909D1C60FF5600E64B9C /* Cocoa.framework */; };
 		650D88BD1C61047C00F3F4FB /* CommandoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654190901C60FD2B00E64B9C /* CommandoWindowController.m */; };
 		650D88C11C6104B600F3F4FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650D88C01C6104B600F3F4FB /* MainMenu.xib */; };
+		650D88DE1C6106AF00F3F4FB /* cat.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88C31C61067B00F3F4FB /* cat.cmdo */; };
+		650D88DF1C6106AF00F3F4FB /* cmdo.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88C41C61067B00F3F4FB /* cmdo.cmdo */; };
+		650D88E01C6106AF00F3F4FB /* cp.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88C51C61067B00F3F4FB /* cp.cmdo */; };
+		650D88E11C6106AF00F3F4FB /* df.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88C61C61067B00F3F4FB /* df.cmdo */; };
+		650D88E21C6106AF00F3F4FB /* echo.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88C71C61067B00F3F4FB /* echo.cmdo */; };
+		650D88E31C6106AF00F3F4FB /* kill.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88C81C61067B00F3F4FB /* kill.cmdo */; };
+		650D88E41C6106AF00F3F4FB /* ls.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88C91C61067B00F3F4FB /* ls.cmdo */; };
+		650D88E51C6106AF00F3F4FB /* mkdir.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88CA1C61067B00F3F4FB /* mkdir.cmdo */; };
+		650D88E61C6106AF00F3F4FB /* mv.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88CB1C61067B00F3F4FB /* mv.cmdo */; };
+		650D88E71C6106AF00F3F4FB /* ps.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88CC1C61067B00F3F4FB /* ps.cmdo */; };
+		650D88E81C6106AF00F3F4FB /* rm.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88CD1C61067B00F3F4FB /* rm.cmdo */; };
+		650D88E91C6106AF00F3F4FB /* rmdir.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88CE1C61067B00F3F4FB /* rmdir.cmdo */; };
+		650D88EA1C6106B000F3F4FB /* top.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88CF1C61067B00F3F4FB /* top.cmdo */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		650D88DD1C6106A200F3F4FB /* Install Bundled CIFs */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = CIFs;
+			dstSubfolderSpec = 7;
+			files = (
+				650D88DE1C6106AF00F3F4FB /* cat.cmdo in Install Bundled CIFs */,
+				650D88DF1C6106AF00F3F4FB /* cmdo.cmdo in Install Bundled CIFs */,
+				650D88E01C6106AF00F3F4FB /* cp.cmdo in Install Bundled CIFs */,
+				650D88E11C6106AF00F3F4FB /* df.cmdo in Install Bundled CIFs */,
+				650D88E21C6106AF00F3F4FB /* echo.cmdo in Install Bundled CIFs */,
+				650D88E31C6106AF00F3F4FB /* kill.cmdo in Install Bundled CIFs */,
+				650D88E41C6106AF00F3F4FB /* ls.cmdo in Install Bundled CIFs */,
+				650D88E51C6106AF00F3F4FB /* mkdir.cmdo in Install Bundled CIFs */,
+				650D88E61C6106AF00F3F4FB /* mv.cmdo in Install Bundled CIFs */,
+				650D88E71C6106AF00F3F4FB /* ps.cmdo in Install Bundled CIFs */,
+				650D88E81C6106AF00F3F4FB /* rm.cmdo in Install Bundled CIFs */,
+				650D88E91C6106AF00F3F4FB /* rmdir.cmdo in Install Bundled CIFs */,
+				650D88EA1C6106B000F3F4FB /* top.cmdo in Install Bundled CIFs */,
+			);
+			name = "Install Bundled CIFs";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		650D889E1C6101A800F3F4FB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		650D88A31C6103F200F3F4FB /* Commando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Commando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		650D88C01C6104B600F3F4FB /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		650D88C31C61067B00F3F4FB /* cat.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cat.cmdo; sourceTree = "<group>"; };
+		650D88C41C61067B00F3F4FB /* cmdo.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmdo.cmdo; sourceTree = "<group>"; };
+		650D88C51C61067B00F3F4FB /* cp.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cp.cmdo; sourceTree = "<group>"; };
+		650D88C61C61067B00F3F4FB /* df.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = df.cmdo; sourceTree = "<group>"; };
+		650D88C71C61067B00F3F4FB /* echo.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = echo.cmdo; sourceTree = "<group>"; };
+		650D88C81C61067B00F3F4FB /* kill.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kill.cmdo; sourceTree = "<group>"; };
+		650D88C91C61067B00F3F4FB /* ls.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ls.cmdo; sourceTree = "<group>"; };
+		650D88CA1C61067B00F3F4FB /* mkdir.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mkdir.cmdo; sourceTree = "<group>"; };
+		650D88CB1C61067B00F3F4FB /* mv.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mv.cmdo; sourceTree = "<group>"; };
+		650D88CC1C61067B00F3F4FB /* ps.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ps.cmdo; sourceTree = "<group>"; };
+		650D88CD1C61067B00F3F4FB /* rm.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rm.cmdo; sourceTree = "<group>"; };
+		650D88CE1C61067B00F3F4FB /* rmdir.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rmdir.cmdo; sourceTree = "<group>"; };
+		650D88CF1C61067B00F3F4FB /* top.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = top.cmdo; sourceTree = "<group>"; };
 		654190831C60FD2B00E64B9C /* AppDelegates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegates.h; sourceTree = "<group>"; };
 		654190841C60FD2B00E64B9C /* AppDelegates.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = AppDelegates.m; sourceTree = "<group>"; };
 		654190851C60FD2B00E64B9C /* AssociatedTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssociatedTable.h; sourceTree = "<group>"; };
@@ -57,12 +109,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		650D88C21C61067B00F3F4FB /* CIFs */ = {
+			isa = PBXGroup;
+			children = (
+				650D88C31C61067B00F3F4FB /* cat.cmdo */,
+				650D88C41C61067B00F3F4FB /* cmdo.cmdo */,
+				650D88C51C61067B00F3F4FB /* cp.cmdo */,
+				650D88C61C61067B00F3F4FB /* df.cmdo */,
+				650D88C71C61067B00F3F4FB /* echo.cmdo */,
+				650D88C81C61067B00F3F4FB /* kill.cmdo */,
+				650D88C91C61067B00F3F4FB /* ls.cmdo */,
+				650D88CA1C61067B00F3F4FB /* mkdir.cmdo */,
+				650D88CB1C61067B00F3F4FB /* mv.cmdo */,
+				650D88CC1C61067B00F3F4FB /* ps.cmdo */,
+				650D88CD1C61067B00F3F4FB /* rm.cmdo */,
+				650D88CE1C61067B00F3F4FB /* rmdir.cmdo */,
+				650D88CF1C61067B00F3F4FB /* top.cmdo */,
+			);
+			path = CIFs;
+			sourceTree = "<group>";
+		};
 		6541906F1C60F19600E64B9C = {
 			isa = PBXGroup;
 			children = (
 				650D889E1C6101A800F3F4FB /* Info.plist */,
 				650D88C01C6104B600F3F4FB /* MainMenu.xib */,
 				654190821C60FD2B00E64B9C /* Source */,
+				650D88C21C61067B00F3F4FB /* CIFs */,
 				654190791C60F19600E64B9C /* Products */,
 				6541909D1C60FF5600E64B9C /* Cocoa.framework */,
 			);
@@ -111,6 +184,7 @@
 				650D889F1C6103F200F3F4FB /* Sources */,
 				650D88A01C6103F200F3F4FB /* Frameworks */,
 				650D88A11C6103F200F3F4FB /* Resources */,
+				650D88DD1C6106A200F3F4FB /* Install Bundled CIFs */,
 			);
 			buildRules = (
 			);

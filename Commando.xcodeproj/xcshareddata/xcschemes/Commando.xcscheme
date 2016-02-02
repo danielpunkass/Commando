@@ -64,7 +64,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "ls"
+            argument = "kill"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

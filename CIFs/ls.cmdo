@@ -1,0 +1,27 @@
+ls -[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25]
+<version 1>
+list directory contents
+
+<pane Basic Settings>
+1|S|l|-l long format|The long format
+2|S|a|-a all files|
+3|S|A|-A all entries except . and ..| Always set for the superuser
+4|S|B|-B Display non-printable characters| Prints \xxx where xxx is the numeric value of the character in octal
+5|S|b|-b Same as -B except C escape codes|
+6|S|C|-C Multi-column output| The default when output is to a terminal
+7|S|F|-F Append info symbol for non-files|Append slash ('/') for directory, * for executables, @ for symbolic link, = for socket, % for whiteout, and \| for each that is a FIFO
+8|S|G|-G Enable colorized output|
+9|S|H|-H Follow sym links on command line|
+10|S|L|-L List sym link file|
+11|S|P|-P List sym link not file|
+12|S|R|-R Recursive subdirectories|
+13|S|T|-T Use with -l for more info| When used with -l, displays complete time information including month, day, hour, minute, second, and year
+14|S|W|-W Display whiteouts in directories|
+15|S|c|-c Sort by last changed time|
+16|S|d|-d Directories as plain files|Directories are not searched recursively
+17|S|f|-f Don't sort output|
+18|S|h|-h Use with -l for unit suffixes|When used with -l, Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte are used to reduce the number of digits to three or less
+19|S|k|-k Use with -s for sizes in kilobytes|This option overrides the environment variable BLOCKSIZE
+20|S|m|-m Stream output format|List files across the page, separated by commas
+21|S|n|-n Use with -l for numeric user & group IDs|
+</pane>

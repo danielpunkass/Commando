@@ -1,0 +1,8 @@
+rmdir [1] [directorylist]
+<version 1>
+Remove directory
+
+<pane Options>
+1|S|-p|-p Remove each path component if empty|For each directory listed the directory is treated as a full path where each path component will be removed if empty.
+directorylist|T||Directories|
+</pane>

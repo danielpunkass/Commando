@@ -1,0 +1,11 @@
+mkdir -[1][2] [3] [directorylist]
+<version 1>
+make directory
+
+<pane Options>
+1|S|p|-p Create full path|Create all required directories on the way to final directory. Directories are created with permissions 0x777 as modified by the current umask plus write and search permissions for the current user.
+2|S|v|-v Verbose mode|List directories as they are created.
+3|S|-m [<mode>]|-m <mode> Set final directory permissions to <mode>|Set the final directory permissions to mode, using any of the formats accepted by chmod.
+<mode>|T||Permissions:|The permissions to set on the final directory.
+directorylist|T||Directory:|
+</pane>

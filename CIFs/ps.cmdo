@@ -1,0 +1,38 @@
+ps -[1][2][3][4][5][6][8][9][10][14][15][16][19][20][21] [7] [11] [12] [13] [17] [18]
+<version 1>
+Process status
+
+<pane Options>
+1|R1|a|-a include other users' processes also|
+1|R1|A|-A -a plus non-terminal processes|Your processes plus other processes including those without controlling terminals.
+1|R1||default (no selection)|Choose this to turn the option off.
+2|S|c|-c Show just executable name, not path|
+3|S|C|-C Show CPU percentage using "raw" cpu|cpu percentage is calculated by using a "raw" cpu calculation that ignores "resident" cpu time.
+4|S|e|-e Display the enviornment as well|
+5|S|h|-h Put a header on each page of data|
+7|S|-L|-L List the available keywords|
+6|S|j|-j Print a specific keyword set|Prints information for keywords: user, pid, ppid, pgid, sess, jobc, state, tt, time, and command.
+8|S|l|-l Print a specific keyword set|Prints information for keywords: uid, pid, ppid, cpu, pri, nice, vsz, rss, wchan, state, tt, time, and command.
+19|S|u|-u Display a specific keyword set|Prints information for keywords: user, pid, %cpu, %mem, vsz, rss, tt, state, start, time and command. Implies -r.
+20|S|v|-v Display a specific keyword set|Prints information for keywords: pid, state, time, sl, re, pagein, vsz, rss, lim, tsiz, %cpu, %mem, and command. Implies -m.
+9|S|M|-M Print threads corresponding to each task|
+10|S|m|-m Sort by memory usage|
+14|S|r|-r Sort by cpu usage|
+15|S|S|-S Calculate process type including children|Sum all exited children into process time calculation.
+16|S|T|-T Info about process on standard input|
+19|S|w|-w Wide (132 columns)|Use 132 columns, ignoring window size
+20|S|ww|-ww Double wide|Use as many columns a necessary to ignoring window size
+21|S|x|-x Processes without controlling terminals|
+11|S|-O [<fmt1>]|-O keywords to show after pid.|See edit box for more info
+<fmt1>|T||Keyword list:|Comma or space separated list of keywords to be shown after the pid in the output. Use keyword=title to change the standard header. Title can be only a single word.
+12|S|-o [<fmt2>]|-o keywords to show.|See edit box for more info
+<fmt2>|T||Keyword list:|Comma or space separated list of keywords to be shown as the output. Use keyword=title to change the standard header. Title can be only a single word.
+</pane>
+<pane Process Filtering>
+13|S|-p [<pid>]|-p Info about process id.|
+<pid>|T||pid:|
+17|S|-t [<tty>]|-t <tty> Info on process on tty|
+<tty>|T||tty device:|
+18|S|-U|-U <username>|Display info about processes owned by username
+<username>|T||username:|
+</pane>

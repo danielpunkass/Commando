@@ -1,0 +1,33 @@
+top [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+<version 1>
+Display process resources useage
+First edit by Shane Looker.
+<pane Options>
+1|R1|-cn|-cn Non-event mode (default)|Calculate CPU usage since the previous sample
+1|R1|-ca|-ca Accumulative Mode|Count events accumulatively, starting at launch of top. Calculate CPU usage and time.
+1|R1|-cd|-cd Delta mode|Count events relative to the previous sample. Calculate CPU usage since the previous sample.
+1|R1|-ce|-ce Absolute mode|Count events using absolute counters.
+2|R2|-F|-F Ignore Frameworks (shared libraries)|Dont calculate statistics for shared libraries. Reduces top processor time.
+2|R2|-f|-f Include Frameworks (default)|
+4|S|-h|-h Print command line help|
+5|S|-s[<t>]|-s <t> delay in seconds|Updates every <t> seconds. <t> is set in the text field below.
+<t>|T|1|Seconds between updates:|How many seconds between updates
+12|R3|-T|-T don't translate uid numbers (default)|Don't translate uids to numbers to usernames
+12|R3|-t|-t translate uid numbers|Translate uids to numbers to usernames
+8|S|-n[<procCount>]|-n Display <N> proceeses|Display at most <N> processes. You must enter a valid number if this option is on.
+<procCount>|T|100|Maximum number to display:|The maximum number of processes to display.
+9|S|-O[<skey>]|-O <key> Secondary sort order key|Use this to specify a secondary sort order for the list
+<skey>|T|pid|Secondary key to sort on:|Supported keys are: command, cpu, pid, prt, reg, rprvt, rshrd, rsize, th, time, uid, username, vprvt, vsize
+10|S|-o[<key>]| -o <key> Sort display on <key> column|Descending order by default. Prefix "+" to the key to use ascending order. Supported keys are: command, cpu, pid, prt, reg, rprvt, rshrd, rsize, th, time, uid, username, vprvt, vsize
+<key>|T|cpu|Secondary key to sort on:|Supported keys are: command, cpu, pid, prt, reg, rprvt, rshrd, rsize, th, time, uid, username, vprvt, vsize
+11|S|-R|-R Don't traverse memory object map|Do not travers and report the memory map for each proceess. This substantially reduces the processor time used by top.
+13|S|-U[<user>]|-U <user> Display only <user>| Display only processes owned by <user>. <user> can be a username or uid.
+<user>|T||username of uid:|This can be a username or uid (user id).
+14|R4|-W|-W show + or - to show delta (default)|Use + or - to indicate delta changes in values in the display.
+14|R4|-w|-w show delta values| Use this to show actual delta values instead of +/- change markers
+</pane>
+<pane Logging>
+6|S|-L|-L Interacive mode|Non-logging mode. If not in a terminal exit with an error.
+7|S|-l[<samples>]|-l <samples> logging mode| Use logging mode and display <N> samples. 0 = infinity. Output is printed in raw form.
+<samples>|T|0|Number of samples:|0 = °
+</pane>

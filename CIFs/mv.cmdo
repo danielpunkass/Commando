@@ -1,0 +1,12 @@
+cp [2] [3] [source] [target]
+<version 1>
+Move files (works between different file systems)
+
+<pane Options>
+2|R2|-f|-f Force overwrite of existing|Force existing files to be overwritten by the copied files.
+2|R2|-i|-i Interactive overwrite existing|If a file will be overwritten, ask from a command line response before overwriting target.
+2|R2|-n|-n Never overwrite existing|Never overwrite an existing file.
+3|S|-v|-v Verbose mode|Show files as they are copied.
+source|T||Source files or directories| This can be a list of sources
+target|T||Destination|This can be a single file or a directory
+</pane>

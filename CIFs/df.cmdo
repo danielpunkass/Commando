@@ -1,0 +1,21 @@
+df -[1][2][3][4][5][6][7] [8] [files]
+<version 1>
+Display free disk space
+
+<pane Options>
+1|R1||Count in disk block size units|Defaults to disk block size.
+1|R1|k|-k Use 1024-byte block sizes| Report sizes in K. Overrides BLOCKSIZE in environment.
+1|R1|b|-b Use 512-byte blocks sizes|This reports the file useage in 1/2 K increments. Overrides BLOCKSIZE specified in environment.
+1|R1|P|-P Use POSIX 512-byte blocks sizes|This reports the file useage in 1/2 K increments. Overrides BLOCKSIZE specified in environment.
+1|R1|m|-m Use 1-Mbyte block sizes|Reports sizes in Megabytes (1048576 bytes). Overrides BLOCKSIZE in environemnt.
+1|R1|g|-g Use 1-Gbyte blocks sizes|1073741824-byte blocks. Overrides BLOCKSIZE in environment.
+2|S|h|-h Human readable output. Base 2 sizes|Uses suffixes Byte, Kilobyte, Megabyte, Gigabyte, and Terabyte to use 3 or fewer digits on the report.
+3|S|H|-H Human Readable output. Base 10 sizes|Uses suffixes Byte, Kilobyte, Megabyte, Gigabyte, and Terabyte to use 3 or fewer digits on the report.
+4|S|a|-a Show ALL mountpoints|Show all mountpoints, including those mounted with MNT_IGNORE flag.
+5|S|i|-i Include number of free inodes|
+6|S|l-l|-l Locally mounted filesystems only|
+7|S|n|-n Print previously obtained info|Prevents fresh request from filesystem. Data may be stale, but won't hit filesystems again.
+8|-t [<type>]|-t filesystems to include or exclude|Comma separated list of filesystems to include or exclude if prefixed with "no", such as "nonfs,mfs" for no nfs or mfs filesystems.
+<type>|T||filesystem types|Comma separated list of filesystems to include or exclude if prefixed with "no", such as "nonfs,mfs" for no nfs or mfs filesystems.
+files|T||file or filesystem|Either the filesystem file is a part of or the filesystems.
+</pane>

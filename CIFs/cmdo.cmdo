@@ -1,0 +1,10 @@
+cmdo [1]
+<version 1>
+The graphical user interface for command line tools
+You are in a twisty maze of little command line tools…
+<pane All 1>
+1|S|ls|ls  list files|List files in a directory
+1|S|top|top  show process info|Full terminal view of processes with useful information
+1|S|cat|cat |
+1|S|kill|kill  Stops processes dead|
+</pane>

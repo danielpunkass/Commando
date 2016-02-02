@@ -1,0 +1,11 @@
+kill -[1] [pid]
+<version 1>
+Kill processes dead.
+
+<pane Basic Settings>
+1|R1|l|-l list available signals|The names by mnemonic
+1|R1|s [<signame>] [<pid>]|-s signal_name|The name of the signale to send
+1|R1|[<signame>]|- Signal name or number|The signal name or number to send to the target process
+<signame>|T||The signal to use|The signal name or number to send to the target process
+pid|T||process ID|Who do you want to kill today? If you are superuser, Process ID -1 means send to all proceses, otherwise send to all processes current user owns.
+</pane>

@@ -1,0 +1,15 @@
+rm -[1][2][3][4][5][6] [filelist]
+<version 1>
+Remove files and directories
+
+<pane Options>
+1|S|r|-r Recursive for directories|
+2|S|d|-d Delete directories|
+3|S|P|-P Overwrite before deleting|Overwrite regular files 3 times before deleting, using 0xFF, then 0x00, then 0xFF.
+4|S|v|-v Verbose mode|Write name of each file to standard output before deleting it.
+5|R1|f|-f Force removal|Don't ask permission for each file, just remove it if possible. Don't report errors removing files.
+5|R1|i|-i Interactive|Ask for permission for each file
+5|R1||Normal removal mode (default)|
+6|S|W|-W Recover files|Atempt to undelete named files. Currently this can only be done for files covered by whiteouts.
+filelist|T||Files/Directories:|List of files and/or directories to remove, separated by spaces.
+</pane>

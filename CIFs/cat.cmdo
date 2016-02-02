@@ -1,0 +1,13 @@
+cat -[1][2][3][4][5][6][7]
+<version 1>
+concatenate and print
+Shane Looker
+<pane cat>
+1|S|n|-n Number the output lines|Number output lines starting at 1.
+2|S|b|-b Number non-blank output lines|Implies -n option but doesn't number blank lines
+3|S|v|-v Display non-printing characters|Displays non-printing characters. Control characters (^X), delete character (^?) and non-ASCII (M-low 7 bits)
+4|S|e|-e Does -v plus end-of-line|Displays the same as -v but adds dollar sign (Ô$Õ) at the end of each line.
+5|S|t|-t Does -v plus tab characters| Displays the same as -v and displays tabs as ^I.
+6|S|s|-s Squeeze empty lines down|Combine multiple empty lines into a single empty line on output.
+7|S|u|-u Unbuffered output|
+</pane>
