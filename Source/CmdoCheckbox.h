@@ -1,0 +1,1 @@
+#import "CmdoControl.h"@interface CmdoCheckbox : CmdoControl{	NSMutableArray	*mControlInfo;}- (id) initWithArray: (NSMutableArray*) controlInfo;- (void) checkboxHandler: (id) sender;/*- (id) copyWithZone: (NSZone*) zone;*/@end

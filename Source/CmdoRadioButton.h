@@ -1,0 +1,1 @@
+#import "CmdoControl.h"@interface CmdoRadioButton : CmdoControl{	NSButton	*mRadioButton;	}- (id) initWithArray: (NSMutableArray*) theData radioDict: (NSMutableDictionary*) radioDict;- (float) height;- (void) radioHandler: (id) sender;- (void) matrixHandler: (id) sender;@end
