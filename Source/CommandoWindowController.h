@@ -13,7 +13,6 @@
 #import "ToolParser.h"
 #import "AssociatedTable.h"
 
-
 enum 
 {
 	
@@ -35,7 +34,7 @@ enum
 };
 
 
-@interface CommandoWindowController : NSWindowController
+@interface CommandoWindowController : NSWindowController <NSTabViewDelegate>
 {
     IBOutlet NSTextField	*mCommandName;
     IBOutlet NSTextView		*mOutputLine;

@@ -12,7 +12,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <window title="Commando" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="21" userLabel="Window">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
@@ -44,14 +44,14 @@ DQ
                             <tabViewItem label="I/O" identifier="1" id="243">
                                 <view key="view" id="239">
                                     <rect key="frame" x="10" y="33" width="554" height="289"/>
-                                    <autoresizingMask key="autoresizingMask"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <popUpButton verticalHuggingPriority="750" id="361">
                                             <rect key="frame" x="103" y="237" width="189" height="26"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <popUpButtonCell key="cell" type="push" title="Terminal" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" tag="1000" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="351" id="413">
                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
+                                                <font key="font" metaFont="menu"/>
                                                 <menu key="menu" title="OtherViews" id="355">
                                                     <items>
                                                         <menuItem title="Terminal" state="on" tag="1000" id="351"/>
@@ -69,7 +69,7 @@ DQ
                                             <autoresizingMask key="autoresizingMask"/>
                                             <popUpButtonCell key="cell" type="push" title="Terminal" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" tag="1100" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="350" id="412">
                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
+                                                <font key="font" metaFont="menu"/>
                                                 <menu key="menu" title="OtherViews" id="368">
                                                     <items>
                                                         <menuItem title="Terminal" state="on" tag="1100" id="350"/>
@@ -89,7 +89,7 @@ DQ
                                             <autoresizingMask key="autoresizingMask"/>
                                             <popUpButtonCell key="cell" type="push" title="Terminal" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" tag="1201" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="391" id="414">
                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="system"/>
+                                                <font key="font" metaFont="menu"/>
                                                 <menu key="menu" title="OtherViews" id="360">
                                                     <items>
                                                         <menuItem title="To stdout" tag="1200" id="366"/>
@@ -127,7 +127,7 @@ DQ
                                             <autoresizingMask key="autoresizingMask"/>
                                             <clipView key="contentView" id="dVh-Mp-36P">
                                                 <rect key="frame" x="0.0" y="0.0" width="490" height="32"/>
-                                                <autoresizingMask key="autoresizingMask"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textView editable="NO" importsGraphics="NO" richText="NO" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" smartInsertDelete="YES" id="380">
                                                         <rect key="frame" x="0.0" y="0.0" width="490" height="32"/>
@@ -156,7 +156,7 @@ DQ
                                             <autoresizingMask key="autoresizingMask"/>
                                             <clipView key="contentView" id="dJ8-tS-g4X">
                                                 <rect key="frame" x="0.0" y="0.0" width="490" height="32"/>
-                                                <autoresizingMask key="autoresizingMask"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textView editable="NO" importsGraphics="NO" richText="NO" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" smartInsertDelete="YES" id="387">
                                                         <rect key="frame" x="0.0" y="0.0" width="490" height="32"/>
@@ -194,7 +194,7 @@ DQ
                                             <autoresizingMask key="autoresizingMask"/>
                                             <clipView key="contentView" id="fbC-Ws-R6I">
                                                 <rect key="frame" x="0.0" y="0.0" width="490" height="32"/>
-                                                <autoresizingMask key="autoresizingMask"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textView editable="NO" importsGraphics="NO" richText="NO" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" smartInsertDelete="YES" id="394">
                                                         <rect key="frame" x="0.0" y="0.0" width="490" height="32"/>
@@ -284,10 +284,10 @@ Gw
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <size key="minSize" width="576" height="33"/>
-                                                <size key="maxSize" width="576" height="10000000"/>
+                                                <size key="maxSize" width="578" height="10000000"/>
                                                 <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 <size key="minSize" width="576" height="33"/>
-                                                <size key="maxSize" width="576" height="10000000"/>
+                                                <size key="maxSize" width="578" height="10000000"/>
                                             </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -325,10 +325,10 @@ Gw
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <size key="minSize" width="564" height="32"/>
-                                                <size key="maxSize" width="564" height="10000000"/>
+                                                <size key="maxSize" width="566" height="10000000"/>
                                                 <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                 <size key="minSize" width="564" height="32"/>
-                                                <size key="maxSize" width="564" height="10000000"/>
+                                                <size key="maxSize" width="566" height="10000000"/>
                                             </textView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

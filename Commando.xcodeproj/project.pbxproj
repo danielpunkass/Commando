@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650D88B41C6103FC00F3F4FB /* AppDelegates.m in Sources */ = {isa = PBXBuildFile; fileRef = 654190841C60FD2B00E64B9C /* AppDelegates.m */; };
+		650D88B51C6103FC00F3F4FB /* AssociatedTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 654190861C60FD2B00E64B9C /* AssociatedTable.m */; };
+		650D88B61C6103FC00F3F4FB /* CmdoCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 654190881C60FD2B00E64B9C /* CmdoCheckbox.m */; };
+		650D88B71C6103FC00F3F4FB /* CmdoControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541908A1C60FD2B00E64B9C /* CmdoControl.m */; };
+		650D88B81C6103FC00F3F4FB /* CmdoRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541908C1C60FD2B00E64B9C /* CmdoRadioButton.m */; };
+		650D88B91C6103FC00F3F4FB /* CmdoTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6541908E1C60FD2B00E64B9C /* CmdoTextField.m */; };
+		650D88BA1C6103FC00F3F4FB /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 654190911C60FD2B00E64B9C /* main.mm */; };
+		650D88BB1C6103FC00F3F4FB /* ToolParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 654190931C60FD2B00E64B9C /* ToolParser.m */; };
+		650D88BC1C61047100F3F4FB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6541909D1C60FF5600E64B9C /* Cocoa.framework */; };
+		650D88BD1C61047C00F3F4FB /* CommandoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654190901C60FD2B00E64B9C /* CommandoWindowController.m */; };
+		650D88C11C6104B600F3F4FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650D88C01C6104B600F3F4FB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		650D889E1C6101A800F3F4FB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		650D88A31C6103F200F3F4FB /* Commando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Commando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		650D88C01C6104B600F3F4FB /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		654190831C60FD2B00E64B9C /* AppDelegates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegates.h; sourceTree = "<group>"; };
+		654190841C60FD2B00E64B9C /* AppDelegates.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = AppDelegates.m; sourceTree = "<group>"; };
+		654190851C60FD2B00E64B9C /* AssociatedTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssociatedTable.h; sourceTree = "<group>"; };
+		654190861C60FD2B00E64B9C /* AssociatedTable.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = AssociatedTable.m; sourceTree = "<group>"; };
+		654190871C60FD2B00E64B9C /* CmdoCheckbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmdoCheckbox.h; sourceTree = "<group>"; };
+		654190881C60FD2B00E64B9C /* CmdoCheckbox.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = CmdoCheckbox.m; sourceTree = "<group>"; };
+		654190891C60FD2B00E64B9C /* CmdoControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmdoControl.h; sourceTree = "<group>"; };
+		6541908A1C60FD2B00E64B9C /* CmdoControl.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = CmdoControl.m; sourceTree = "<group>"; };
+		6541908B1C60FD2B00E64B9C /* CmdoRadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmdoRadioButton.h; sourceTree = "<group>"; };
+		6541908C1C60FD2B00E64B9C /* CmdoRadioButton.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = CmdoRadioButton.m; sourceTree = "<group>"; };
+		6541908D1C60FD2B00E64B9C /* CmdoTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CmdoTextField.h; sourceTree = "<group>"; };
+		6541908E1C60FD2B00E64B9C /* CmdoTextField.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = CmdoTextField.m; sourceTree = "<group>"; };
+		6541908F1C60FD2B00E64B9C /* CommandoWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandoWindowController.h; sourceTree = "<group>"; };
+		654190901C60FD2B00E64B9C /* CommandoWindowController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = CommandoWindowController.m; sourceTree = "<group>"; };
+		654190911C60FD2B00E64B9C /* main.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		654190921C60FD2B00E64B9C /* ToolParser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = ToolParser.h; sourceTree = "<group>"; };
+		654190931C60FD2B00E64B9C /* ToolParser.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ToolParser.m; sourceTree = "<group>"; };
+		6541909C1C60FDCE00E64B9C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6541909D1C60FF5600E64B9C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650D88A01C6103F200F3F4FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650D88BC1C61047100F3F4FB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6541906F1C60F19600E64B9C = {
+			isa = PBXGroup;
+			children = (
+				650D889E1C6101A800F3F4FB /* Info.plist */,
+				650D88C01C6104B600F3F4FB /* MainMenu.xib */,
+				654190821C60FD2B00E64B9C /* Source */,
+				654190791C60F19600E64B9C /* Products */,
+				6541909D1C60FF5600E64B9C /* Cocoa.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		654190791C60F19600E64B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650D88A31C6103F200F3F4FB /* Commando.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654190821C60FD2B00E64B9C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				654190831C60FD2B00E64B9C /* AppDelegates.h */,
+				654190841C60FD2B00E64B9C /* AppDelegates.m */,
+				654190851C60FD2B00E64B9C /* AssociatedTable.h */,
+				654190861C60FD2B00E64B9C /* AssociatedTable.m */,
+				654190871C60FD2B00E64B9C /* CmdoCheckbox.h */,
+				654190881C60FD2B00E64B9C /* CmdoCheckbox.m */,
+				654190891C60FD2B00E64B9C /* CmdoControl.h */,
+				6541908A1C60FD2B00E64B9C /* CmdoControl.m */,
+				6541908B1C60FD2B00E64B9C /* CmdoRadioButton.h */,
+				6541908C1C60FD2B00E64B9C /* CmdoRadioButton.m */,
+				6541908D1C60FD2B00E64B9C /* CmdoTextField.h */,
+				6541908E1C60FD2B00E64B9C /* CmdoTextField.m */,
+				6541908F1C60FD2B00E64B9C /* CommandoWindowController.h */,
+				654190901C60FD2B00E64B9C /* CommandoWindowController.m */,
+				654190911C60FD2B00E64B9C /* main.mm */,
+				654190921C60FD2B00E64B9C /* ToolParser.h */,
+				654190931C60FD2B00E64B9C /* ToolParser.m */,
+				6541909C1C60FDCE00E64B9C /* PrefixHeader.pch */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650D88A21C6103F200F3F4FB /* Commando */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650D88B11C6103F200F3F4FB /* Build configuration list for PBXNativeTarget "Commando" */;
+			buildPhases = (
+				650D889F1C6103F200F3F4FB /* Sources */,
+				650D88A01C6103F200F3F4FB /* Frameworks */,
+				650D88A11C6103F200F3F4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Commando;
+			productName = Commando;
+			productReference = 650D88A31C6103F200F3F4FB /* Commando.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654190701C60F19600E64B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Jalkut";
+				TargetAttributes = {
+					650D88A21C6103F200F3F4FB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 654190731C60F19600E64B9C /* Build configuration list for PBXProject "Commando" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6541906F1C60F19600E64B9C;
+			productRefGroup = 654190791C60F19600E64B9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650D88A21C6103F200F3F4FB /* Commando */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650D88A11C6103F200F3F4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650D88C11C6104B600F3F4FB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650D889F1C6103F200F3F4FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650D88BB1C6103FC00F3F4FB /* ToolParser.m in Sources */,
+				650D88B71C6103FC00F3F4FB /* CmdoControl.m in Sources */,
+				650D88B51C6103FC00F3F4FB /* AssociatedTable.m in Sources */,
+				650D88B81C6103FC00F3F4FB /* CmdoRadioButton.m in Sources */,
+				650D88B61C6103FC00F3F4FB /* CmdoCheckbox.m in Sources */,
+				650D88B41C6103FC00F3F4FB /* AppDelegates.m in Sources */,
+				650D88BA1C6103FC00F3F4FB /* main.mm in Sources */,
+				650D88B91C6103FC00F3F4FB /* CmdoTextField.m in Sources */,
+				650D88BD1C61047C00F3F4FB /* CommandoWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		650D88B21C6103F200F3F4FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = Source/PrefixHeader.pch;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalkut.Commando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		650D88B31C6103F200F3F4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = Source/PrefixHeader.pch;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalkut.Commando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6541907D1C60F19600E64B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6541907E1C60F19600E64B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650D88B11C6103F200F3F4FB /* Build configuration list for PBXNativeTarget "Commando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650D88B21C6103F200F3F4FB /* Debug */,
+				650D88B31C6103F200F3F4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		654190731C60F19600E64B9C /* Build configuration list for PBXProject "Commando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6541907D1C60F19600E64B9C /* Debug */,
+				6541907E1C60F19600E64B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654190701C60F19600E64B9C /* Project object */;
+}

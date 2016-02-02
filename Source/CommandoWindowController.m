@@ -9,7 +9,6 @@
 #import "CommandoWindowController.h"
 #import <string>
 #import <fstream>
-#import <NSGeometry.h>
 #import	"CmdoControl.h"
 #if	DO_PROFILE
 #import "Profiler.h"
@@ -181,7 +180,7 @@ NSTask	*gSubTask = nil;
 	
 	ProcessInfoRec	procInfo;
 	procInfo.processName = nil;
-	procInfo.processAppSpec = nil;
+	procInfo.processAppRef = nil;
 	procInfo.processLocation = bigArray;
 	procInfo.processInfoLength = sizeof(procInfo);
 	
@@ -439,10 +438,13 @@ NSTask	*gSubTask = nil;
 	{
 		// stdin handling section
 		case kInputPopupTerminal:
+		{
 			[mInputTextView setEditable: FALSE];
 			break;
-		
+		}
+
 		case kInputPopupChooseFile:
+		{
 			[mInputTextView setEditable: FALSE];
 			NSOpenPanel *thePanel = [NSOpenPanel openPanel];
 			[thePanel retain];
@@ -456,25 +458,32 @@ NSTask	*gSubTask = nil;
 			}
 			[thePanel release];
 			break;
-		
+		}
+
 		case kInputPopupTextField:
+		{
 			[mInputTextView setEditable: TRUE];
 			[mInputTextView selectAll: self];
 			[[self window] makeFirstResponder: mInputTextView];
 			break;
-
+		}
 
 		// stdout handling section
 		case kOutputPopupTerminal:
+		{
 			[mOutputTextView setEditable: FALSE];
 			break;
+		}
 
 		case kOutputPopupDevNull:
+		{
 			[mOutputTextView setEditable: FALSE];
 			[mOutputTextView setString: @"/dev/null"];
 			break;
+		}
 
 		case kOutputPopupChooseFile:
+		{
 			[mOutputTextView setEditable: FALSE];
 
 			NSSavePanel *savePanel = [NSSavePanel savePanel];
@@ -486,28 +495,38 @@ NSTask	*gSubTask = nil;
 			}
 			[savePanel release];
 			break;
+		}
 
 		case kOutputPopupTextField:
+		{
 			[mOutputTextView setEditable: TRUE];
 			[mOutputTextView selectAll: self];
 			[[self window] makeFirstResponder: mOutputTextView];
 			break;
+		}
 
 		case kOutputPopupPipe:
+		{
 			[mOutputTextView setEditable: FALSE];
 			break;
+		}
 
 
 		// Stderr handling section
 		case kStderrPopupToOutput:
 		case kStderrPopupTerminal:
+		{
 			break;
+		}
 
 		case kStderrPopupDevNull:
+		{
 			[mErrorTextView setString: @"/dev/null"];
 			break;
+		}
 
 		case kStderrPopupChooseFile:
+		{
 			NSSavePanel *errPanel = [NSSavePanel savePanel];
 			[errPanel retain];
 			if ([errPanel runModal] == NSFileHandlingPanelOKButton)
@@ -517,12 +536,15 @@ NSTask	*gSubTask = nil;
 			}
 			[errPanel release];
 			break;
+		}
 
 		case kStderrPopupTextField:
+		{
 			[mErrorTextView setEditable: TRUE];
 			[mErrorTextView selectAll: self];
 			[[self window] makeFirstResponder: mErrorTextView];
 			break;
+		}
 	}
 
 	[self displayCommandLine];
