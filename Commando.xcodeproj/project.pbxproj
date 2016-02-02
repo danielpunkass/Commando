@@ -31,6 +31,7 @@
 		650D88E81C6106AF00F3F4FB /* rm.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88CD1C61067B00F3F4FB /* rm.cmdo */; };
 		650D88E91C6106AF00F3F4FB /* rmdir.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88CE1C61067B00F3F4FB /* rmdir.cmdo */; };
 		650D88EA1C6106B000F3F4FB /* top.cmdo in Install Bundled CIFs */ = {isa = PBXBuildFile; fileRef = 650D88CF1C61067B00F3F4FB /* top.cmdo */; };
+		650D88EC1C61117600F3F4FB /* CommandoIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 650D88EB1C61117600F3F4FB /* CommandoIcon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,7 @@
 		650D88CD1C61067B00F3F4FB /* rm.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rm.cmdo; sourceTree = "<group>"; };
 		650D88CE1C61067B00F3F4FB /* rmdir.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rmdir.cmdo; sourceTree = "<group>"; };
 		650D88CF1C61067B00F3F4FB /* top.cmdo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = top.cmdo; sourceTree = "<group>"; };
+		650D88EB1C61117600F3F4FB /* CommandoIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CommandoIcon.icns; sourceTree = "<group>"; };
 		654190831C60FD2B00E64B9C /* AppDelegates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegates.h; sourceTree = "<group>"; };
 		654190841C60FD2B00E64B9C /* AppDelegates.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = AppDelegates.m; sourceTree = "<group>"; };
 		654190851C60FD2B00E64B9C /* AssociatedTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssociatedTable.h; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			children = (
 				650D889E1C6101A800F3F4FB /* Info.plist */,
 				650D88C01C6104B600F3F4FB /* MainMenu.xib */,
+				650D88EB1C61117600F3F4FB /* CommandoIcon.icns */,
 				654190821C60FD2B00E64B9C /* Source */,
 				650D88C21C61067B00F3F4FB /* CIFs */,
 				654190791C60F19600E64B9C /* Products */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				650D88C11C6104B600F3F4FB /* MainMenu.xib in Resources */,
+				650D88EC1C61117600F3F4FB /* CommandoIcon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
